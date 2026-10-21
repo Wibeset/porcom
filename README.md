@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="96" height="96" alt="Icône de l’app Porcom">
+  <img src="assets/icon.png" width="96" height="96" alt="Porcom app icon">
 </p>
 
 <h1 align="center">Porcom</h1>
@@ -7,54 +7,57 @@
 <p align="center"><strong>A tiny journal for everything you watch.</strong></p>
 
 <p align="center">
-  <a href="https://porcom.app">porcom.app</a> · <a href="https://porcom.app/fr/">Français</a> · <a href="https://porcom.tumblr.com">Le blogue</a>
+  Log your episodes, watch the trailers, and give every movie and series your verdict. No account needed.
 </p>
 
-![Porcom: a tiny journal for everything you watch.](assets/og-en.png)
+<p align="center">
+  <a href="https://porcom.app">porcom.app</a> · <a href="https://porcom.app/fr/">Français</a> · <a href="https://porcom.tumblr.com">The blog</a>
+</p>
 
-Le site de présentation de Porcom, le journal de films et de séries pour iPhone (`../porcom-ios`).
-Comme celui de Reliure (`../reliure`), c’est du HTML statique, une feuille de style et un petit script,
-publiés par GitHub Pages. Le design, **en mode sombre seulement**, s’inspire de Rollie (via One Page Love) :
-un titre centré en Inter léger, une pilule rouge pâle, une rangée de téléphones qui déborde des deux côtés
-de l’écran, des gribouillis dessinés à la main qui se tracent au défilement, dix fonctionnalités avec de
-petites icônes de couleur, l’appel à l’action avec un QR code, la FAQ en paragraphes étiquetés, deux pubs
-maison (Reliure et la boutique Omnomnom, visuels dans `assets/ads/`) et PORCOM en grand au bas de la page.
+![Porcom: A tiny journal for everything you watch.](assets/og-en.png)
 
-## Pages
+## Made for movie nights
 
-| English | Français |
-| --- | --- |
-| `/` | `/fr/` |
-| `/support/` | `/fr/assistance/` |
-| `/privacy/` | `/fr/confidentialite/` |
+Porcom is an iPhone app for keeping track of the movies and series you watch. It's the app version of the Porcom microblog, where every post is a trailer, a title and a verdict. It's built around the moments you actually watch: an episode before bed, a movie on Friday night, a trailer that makes you want to see something. No feed, no noise, and no sign-up.
 
-L’anglais est la langue par défaut (`x-default`). Chaque page déclare son équivalent (`hreflang`) et
-le lien de langue mène à la même page dans l’autre langue. Les liens sont relatifs
-(`../assets/…`), donc les pages s’ouvrent aussi bien depuis le disque que servies d’un sous-dossier ;
-seule `404.html` garde des liens depuis la racine, puisque GitHub Pages la sert à n’importe quelle adresse. Le français est tutoyé, comme
-l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets ».
+## What you can do
 
-## Travailler sur le site
+- **Add a title in seconds.** Search by title: the poster, summary, cast and trailer come along. A series is added one season at a time, each with its own poster and verdict.
+- **Trailer first.** Every title opens on its trailer, playing right in the app, with the Canadian streaming services where you can watch it.
+- **Pick up where you left off.** Tap Continue after an episode, or "I watched it" after a movie. Your series and its next episode wait on your Home Screen and Lock Screen with widgets.
+- **Give your verdict.** The blog's four: 👎 Meh, 👍 Liked, ❤️ Loved it! and 🔥 Devoured!. Rate the script, characters, acting, directing, visuals, soundtrack and ending too, if you like.
+- **Keep the lines that stay with you.** Photograph the subtitles or pick a screenshot, and select the line to keep it as a quote.
+- **Spot what's coming.** A Spotted list for what caught your eye in a trailer, often before it's out.
+- **Watch the habit grow.** Hours on screen, titles watched and streaks, by week, month or year, by platform and by genre, and a yearly goal.
+- **Play along.** Twelve levels from Corn Kernel to Big Screen Legend, milestones to unlock, a challenge each month, and your year on screen every December.
+- **Share what you watch.** A title, your calendar or your year as an image, for a post or a story.
+- **Keep your journal yours.** Synced with your private iCloud, backed up to a file whenever you like, and exported to CSV for Letterboxd.
 
-- **Styles** : modifier `assets/style.css`, puis `scripts/build-css.sh` pour produire `style.min.css`,
-  que les pages chargent. Le logo est l’avatar du blogue détouré (`assets/logo-blog.png`) ; les favicons
-  restent l’icône de l’app.
-- **Script** : `assets/main.js` fait apparaître les sections au défilement ; sans JavaScript, tout reste visible.
-- **Captures de l’app** : `scripts/capture-screens.sh fr` (puis `en`) compile l’app, la lance dans
-  le simulateur avec les données de démo du blogue et capture les sept écrans de la rangée, en sombre,
-  en AVIF et WebP. `SCREENS="home:"` n’en refait qu’une partie ; `APPEARANCES="light dark"` capture aussi le clair.
-- **Prévisualiser** : ouvrir `index.html`, ou `python3 -m http.server` à la racine puis http://localhost:8000.
-- **Publier** : un push sur `main` déploie avec `.github/workflows/pages.yml`.
+## Private by default
 
-## Avant le lancement
+No account, no sign-up, no ads. Your journal is stored on your iPhone and in your private iCloud.
 
-- **App Store** : l’app n’est pas encore en ligne. À sa sortie, transformer « Coming soon to the App Store » /
-  « Bientôt sur l’App Store » (en-tête, titre, appel à l’action) en lien vers l’App Store, régénérer le QR code
-  (`npx qrcode -t svg -d '#f2f2f3' -l '#0000' -m 0 -o assets/qr.svg <lien>`, il mène à porcom.app pour l’instant)
-  et ajouter `apple-itunes-app` et `installUrl` dans le JSON-LD.
-- **Captures** : sans jeton TMDB, les affiches sont des affiches de remplacement et l’écran d’ajout
-  dit que la recherche est indisponible. Avec un jeton dans `Config/Secrets.xcconfig`, relancer les captures.
+## Download
+
+Porcom is coming soon to the App Store, for iPhone.
 
 ---
 
-<p align="center">Fait par <a href="https://wibeset.ca">Wibeset</a> au Canada</p>
+## En français
+
+**Un petit journal pour tout ce que tu regardes.**
+
+Porcom est une app iPhone pour suivre les films et les séries que tu regardes, la version app du microblogue Porcom. Ajoute un titre, coche tes épisodes et donne ton verdict, sans compte.
+
+- **Ajoute un titre en quelques secondes** : l'affiche, le résumé, la distribution et la bande-annonce arrivent tout seuls, une saison à la fois.
+- **La bande-annonce d'abord** : elle joue directement dans l'app, avec les plateformes où regarder le titre au Canada.
+- **Reprends là où tu en étais** : Continuer après un épisode, « Je l'ai vu » après un film, et ton prochain épisode sur ton écran d'accueil et ton écran verrouillé.
+- **Donne ton verdict** : 👎 Bof, 👍 Aimé, ❤️ Adoré ! ou 🔥 Dévoré !, et note les thèmes si tu veux.
+- **Garde tes répliques** (photographie les sous-titres), suis tes heures d'écran, tes séquences et ton objectif annuel, monte de niveau, du Grain de maïs à la Légende du grand écran.
+- **Partage ce que tu regardes** en image, et **sauvegarde ou exporte ton journal** (synchro iCloud, fichier Porcom ou CSV pour Letterboxd).
+
+[porcom.app/fr](https://porcom.app/fr/)
+
+---
+
+<p align="center">Made with ♥ by <a href="https://wibeset.ca">Wibeset</a> in Canada</p>
