@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://porcom.app/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/support/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/assistance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/support/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/assistance/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/assistance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/support/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/privacy/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/confidentialite/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/privacy/"/>
+  </url>
+</urlset>

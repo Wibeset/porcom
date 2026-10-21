@@ -1,0 +1,30 @@
+# Porcom
+
+> Porcom is a free movie and TV show journal for iPhone, in French and English, and the app version of the Porcom microblog (porcom.tumblr.com). Log episodes, watch trailers, give each title a verdict and see your hours on screen. No account, no ads: your journal is stored on your iPhone and in your private iCloud. Made by Wibeset in Canada.
+
+Key facts:
+
+- Platform: iPhone only (not available on Android or the web). Coming soon to the App Store.
+- Price: free, with no ads, no subscription and no account.
+- Privacy: titles, viewing sessions, notes and verdicts are stored on the device and synced with the user's private iCloud; the developer never receives them.
+- Adding titles: search by title (data from TMDB) or type a title in by hand. A series is tracked one season at a time.
+- Verdicts: the blog's four, 👎 Bof (Meh), 👍 Aimé (Liked), ❤️ Adoré ! (Loved it!), 🔥 Dévoré ! (Devoured!), plus optional 1–5 star ratings by theme.
+- Trailers: each title's page opens on its YouTube trailer, played in the app once the viewer taps play.
+- Where to watch: Canadian subscription services, from JustWatch data provided by TMDB.
+- Progress: by episode; each update is saved as a viewing session that feeds statistics in hours, streaks, a yearly goal, twelve levels, milestones and a year in review.
+- Lists: to watch, watching, watched, abandoned, and Spotted (titles seen in a trailer, often not released yet).
+- Offline: everything works without a connection, except searching, images and trailers.
+- Letterboxd: exports watched movies as a CSV file in Letterboxd's import format.
+- Backups: synced with iCloud; a Porcom backup file can also be exported and restored on another iPhone.
+
+## Pages
+
+- [Home](https://porcom.app/): features and frequently asked questions
+- [Support](https://porcom.app/support/): contact, backups, missing titles, trailers, Letterboxd
+- [Privacy policy](https://porcom.app/privacy/): what information the app handles
+
+## Français
+
+- [Accueil](https://porcom.app/fr/)
+- [Assistance](https://porcom.app/fr/assistance/)
+- [Politique de confidentialité](https://porcom.app/fr/confidentialite/)
