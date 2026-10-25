@@ -30,6 +30,8 @@ OUT=$SITE/assets/screens/$LANG_CODE
 TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT
 
+# The sample shows' real posters and backdrops, downloaded once into porcom-ios's build/.
+python3 -I "$IOS/Scripts/fetch-sample-artwork.py" >/dev/null
 xcodebuild -project "$IOS/Porcom.xcodeproj" -scheme Porcom -configuration Debug \
   -destination "platform=iOS Simulator,id=$UDID" -derivedDataPath "$IOS/build" build -quiet
 xcrun simctl boot "$UDID" 2>/dev/null || true
@@ -49,15 +51,17 @@ SCREENS=${SCREENS:-"home: detail:detail update:update statistics:statistics cale
 APPEARANCES=${APPEARANCES:-dark}
 for pair in $SCREENS; do
   name=${pair%%:*} screen=${pair#*:}
-  # The milestones need a year of history to show more than a few badges.
-  extra=$([ "$name" = milestones ] && echo -seedYearInReview || true)
+  # The milestones need a year of history to show more than a few badges; they and the calendar
+  # open scrolled past the month's image, which the statistics screen already shows.
+  extra=$(case "$name" in (milestones) echo -seedYearInReview -statisticsScrolled ;; (calendar) echo -statisticsScrolled ;; esac)
   for appearance in $APPEARANCES; do
     suffix=$([ "$appearance" = dark ] && echo -dark || true)
     xcrun simctl terminate "$UDID" "$BUNDLE" 2>/dev/null || true
-    xcrun simctl launch "$UDID" "$BUNDLE" -seedSampleData $extra -inMemoryStore \
-      -"watchGoal.$(date +%Y)" "$GOAL" -appearance "$appearance" \
+    xcrun simctl launch "$UDID" "$BUNDLE" -seedSampleData $extra -inMemoryStore -sampleArtwork "$IOS/build/sample-artwork" \
+      -"watchGoal.$(date +%Y)" "$GOAL" -backupRemindersEnabled NO -appearance "$appearance" \
       -AppleLanguages "($LANG_CODE)" -AppleLocale "$LOCALE" ${screen:+-debugScreen "$screen"} >/dev/null
-    sleep 5
+    # Decoding the sample artwork makes the first frames slower than plain sample data.
+    sleep 8
     xcrun simctl io "$UDID" screenshot "$TMP/raw.png" >/dev/null 2>&1
     # 750 px wide covers the phone frame at 2x.
     sips -s format png --resampleWidth 750 "$TMP/raw.png" --out "$TMP/shot.png" >/dev/null
