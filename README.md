@@ -39,7 +39,7 @@ No account, no sign-up, no ads. Your journal is stored on your iPhone and in you
 
 ## Download
 
-Porcom is coming soon to the App Store, for iPhone.
+Porcom is [available on the App Store](https://apps.apple.com/app/id6825954523), for iPhone.
 
 ---
 

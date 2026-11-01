@@ -103,7 +103,7 @@ h1, h2, h3, p { margin: 0; }
 
 .nav a:not(.brand) { color: var(--muted); text-decoration: none; }
 .nav a:not(.brand):hover { color: var(--text); }
-.nav .store { color: var(--red); }
+.nav .store, .nav a.store { color: var(--red); }
 
 /* The soft red pill carries the call to action. */
 .pill {

@@ -4,7 +4,7 @@
 
 Key facts:
 
-- Platform: iPhone only (not available on Android or the web). Coming soon to the App Store.
+- Platform: iPhone only (not available on Android or the web). Available on the App Store: https://apps.apple.com/app/id6825954523
 - Price: free, with no ads, no subscription and no account.
 - Privacy: titles, viewing sessions, notes and verdicts are stored on the device and synced with the user's private iCloud; the developer never receives them.
 - Adding titles: search by title (data from TMDB) or type a title in by hand. A series is tracked one season at a time.

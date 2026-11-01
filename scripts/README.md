@@ -29,12 +29,11 @@ l’app, avec des espaces insécables avant `? ! : ;` et dans les « guillemets 
 - **Prévisualiser** : ouvrir `index.html`, ou `python3 -m http.server` à la racine puis http://localhost:8000.
 - **Publier** : un push sur `main` déploie avec `.github/workflows/pages.yml`.
 
-## Avant le lancement
+## Lancement
 
-- **App Store** : l’app n’est pas encore en ligne. À sa sortie, transformer « Coming soon to the App Store » /
-  « Bientôt sur l’App Store » (en-tête, titre, appel à l’action) en lien vers l’App Store, régénérer le QR code
-  (`npx qrcode -t svg -d '#f2f2f3' -l '#0000' -m 0 -o assets/qr.svg <lien>`, il mène à porcom.app pour l’instant)
-  et ajouter `apple-itunes-app` et `installUrl` dans le JSON-LD.
+- **App Store** : les liens pointent vers https://apps.apple.com/app/id6825954523 (en-tête, titre, appel à
+  l’action, pied de page, `apple-itunes-app`, `installUrl` du JSON-LD). Le QR code y mène aussi ; pour le
+  régénérer : `npx qrcode -t svg -d '#f2f2f3' -l '#0000' -m 0 -o assets/qr.svg <lien>`.
 - **Captures** : sans jeton TMDB, les affiches sont des affiches de remplacement et l’écran d’ajout
   dit que la recherche est indisponible. Avec un jeton dans `Config/Secrets.xcconfig`, relancer les captures.
 
