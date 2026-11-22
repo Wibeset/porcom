@@ -22,9 +22,47 @@ Key facts:
 - [Home](https://porcom.app/): features and frequently asked questions
 - [Support](https://porcom.app/support/): contact, backups, missing titles, trailers, Letterboxd
 - [Privacy policy](https://porcom.app/privacy/): what information the app handles
+- [TV show tracker](https://porcom.app/tv-show-tracker/): Follow every series, episode by episode
+- [Movie diary](https://porcom.app/movie-diary/): The date, the verdict and every rewatch
+- [Watchlist](https://porcom.app/watchlist-app/): Titles to watch, spotted in a trailer
+- [Year in review](https://porcom.app/year-in-review/): Your year on screen, ready to share
+- [Where to watch](https://porcom.app/where-to-watch/): Streaming services in Canada
+- [TV Time alternative](https://porcom.app/tv-time-alternative/): TV Time shut down: keep tracking your shows
+- [Letterboxd alternative](https://porcom.app/letterboxd-alternative/): Movies and series, in private
+- [Trakt alternative](https://porcom.app/trakt-alternative/): No account, no subscription
+- [Serializd alternative](https://porcom.app/serializd-alternative/): Movies too, without a social feed
+- [What’s new](https://porcom.app/whats-new/): Every version of Porcom
 
 ## Français
 
 - [Accueil](https://porcom.app/fr/)
 - [Assistance](https://porcom.app/fr/assistance/)
 - [Politique de confidentialité](https://porcom.app/fr/confidentialite/)
+- [Suivi de séries](https://porcom.app/fr/suivi-de-series/)
+- [Journal de films](https://porcom.app/fr/journal-de-films/)
+- [Liste à voir](https://porcom.app/fr/liste-a-voir/)
+- [Bilan de l’année](https://porcom.app/fr/bilan-annuel/)
+- [Où regarder](https://porcom.app/fr/ou-regarder/)
+- [Alternative à TV Time](https://porcom.app/fr/alternative-tv-time/)
+- [Alternative à Letterboxd](https://porcom.app/fr/alternative-letterboxd/)
+- [Alternative à Trakt](https://porcom.app/fr/alternative-trakt/)
+- [Alternative à Serializd](https://porcom.app/fr/alternative-serializd/)
+- [Nouveautés](https://porcom.app/fr/nouveautes/)
+
+## Español
+
+The site is also in Spanish; the app's interface is in English and French only.
+
+- [Inicio](https://porcom.app/es/)
+- [Soporte](https://porcom.app/es/soporte/)
+- [Política de privacidad](https://porcom.app/es/privacidad/)
+- [Seguimiento de series](https://porcom.app/es/seguimiento-de-series/)
+- [Diario de películas](https://porcom.app/es/diario-de-peliculas/)
+- [Lista para ver](https://porcom.app/es/lista-para-ver/)
+- [Resumen del año](https://porcom.app/es/resumen-anual/)
+- [Dónde ver](https://porcom.app/es/donde-ver/)
+- [Alternativa a TV Time](https://porcom.app/es/alternativa-tv-time/)
+- [Alternativa a Letterboxd](https://porcom.app/es/alternativa-letterboxd/)
+- [Alternativa a Trakt](https://porcom.app/es/alternativa-trakt/)
+- [Alternativa a Serializd](https://porcom.app/es/alternativa-serializd/)
+- [Novedades](https://porcom.app/es/novedades/)

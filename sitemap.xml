@@ -2,44 +2,314 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://porcom.app/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/"/>
   </url>
   <url>
     <loc>https://porcom.app/fr/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/"/>
   </url>
   <url>
     <loc>https://porcom.app/support/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/support/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/assistance/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/soporte/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/support/"/>
   </url>
   <url>
     <loc>https://porcom.app/fr/assistance/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/support/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/assistance/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/soporte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/support/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/soporte/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/assistance/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/soporte/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/support/"/>
   </url>
   <url>
     <loc>https://porcom.app/privacy/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/privacy/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/privacidad/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/privacy/"/>
   </url>
   <url>
     <loc>https://porcom.app/fr/confidentialite/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/privacy/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/privacidad/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/privacidad/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/privacy/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/tv-show-tracker/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/tv-show-tracker/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/suivi-de-series/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/seguimiento-de-series/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/tv-show-tracker/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/suivi-de-series/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/tv-show-tracker/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/suivi-de-series/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/seguimiento-de-series/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/tv-show-tracker/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/seguimiento-de-series/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/tv-show-tracker/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/suivi-de-series/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/seguimiento-de-series/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/tv-show-tracker/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/movie-diary/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/movie-diary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/journal-de-films/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/diario-de-peliculas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/movie-diary/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/journal-de-films/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/movie-diary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/journal-de-films/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/diario-de-peliculas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/movie-diary/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/diario-de-peliculas/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/movie-diary/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/journal-de-films/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/diario-de-peliculas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/movie-diary/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/watchlist-app/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/watchlist-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/liste-a-voir/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/lista-para-ver/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/watchlist-app/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/liste-a-voir/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/watchlist-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/liste-a-voir/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/lista-para-ver/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/watchlist-app/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/lista-para-ver/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/watchlist-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/liste-a-voir/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/lista-para-ver/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/watchlist-app/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/year-in-review/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/year-in-review/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/bilan-annuel/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/resumen-anual/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/year-in-review/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/bilan-annuel/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/year-in-review/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/bilan-annuel/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/resumen-anual/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/year-in-review/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/resumen-anual/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/year-in-review/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/bilan-annuel/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/resumen-anual/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/year-in-review/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/where-to-watch/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/where-to-watch/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/ou-regarder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/donde-ver/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/where-to-watch/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/ou-regarder/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/where-to-watch/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/ou-regarder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/donde-ver/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/where-to-watch/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/donde-ver/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/where-to-watch/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/ou-regarder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/donde-ver/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/where-to-watch/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/tv-time-alternative/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/tv-time-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-tv-time/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-tv-time/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/tv-time-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/alternative-tv-time/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/tv-time-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-tv-time/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-tv-time/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/tv-time-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/alternativa-tv-time/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/tv-time-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-tv-time/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-tv-time/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/tv-time-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/letterboxd-alternative/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/letterboxd-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-letterboxd/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-letterboxd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/letterboxd-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/alternative-letterboxd/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/letterboxd-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-letterboxd/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-letterboxd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/letterboxd-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/alternativa-letterboxd/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/letterboxd-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-letterboxd/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-letterboxd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/letterboxd-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/trakt-alternative/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/trakt-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-trakt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-trakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/trakt-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/alternative-trakt/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/trakt-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-trakt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-trakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/trakt-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/alternativa-trakt/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/trakt-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-trakt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-trakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/trakt-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/serializd-alternative/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/serializd-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-serializd/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-serializd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/serializd-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/alternative-serializd/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/serializd-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-serializd/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-serializd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/serializd-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/alternativa-serializd/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/serializd-alternative/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/alternative-serializd/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/alternativa-serializd/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/serializd-alternative/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/whats-new/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/whats-new/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/nouveautes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/novedades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/whats-new/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/fr/nouveautes/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/whats-new/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/nouveautes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/novedades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/whats-new/"/>
+  </url>
+  <url>
+    <loc>https://porcom.app/es/novedades/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://porcom.app/whats-new/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://porcom.app/fr/nouveautes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://porcom.app/es/novedades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://porcom.app/whats-new/"/>
   </url>
 </urlset>

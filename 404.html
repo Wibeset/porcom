@@ -10,15 +10,20 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="preload" href="/assets/fonts/headland-one-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/style.min.css">
 </head>
 <body>
   <main id="main" class="legal not-found">
-    <a class="brand" href="/"><img src="/assets/logo-blog.png" width="30" height="30" alt="">Porcom</a>
-    <h1>Cut in the edit.<br><span lang="fr">Coupé au montage.</span></h1>
-    <p class="lede">This page doesn’t exist. <span lang="fr">Cette page n’existe pas.</span></p>
-    <p><a href="/">Back to Porcom</a> · <a href="/fr/" lang="fr">Retour à Porcom</a></p>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/"><img src="/assets/logo-blog.png" width="20" height="20" alt="">Porcom</a></li>
+        <li aria-current="page">404</li>
+      </ol>
+    </nav>
+    <h1>Cut in the edit.<br><span lang="fr">Coupé au montage.</span><br><span lang="es">Cortada en el montaje.</span></h1>
+    <p class="lede">This page doesn’t exist. <span lang="fr">Cette page n’existe pas.</span> <span lang="es">Esta página no existe.</span></p>
+    <p><a href="/">Back to Porcom</a> · <a href="/fr/" lang="fr">Retour à Porcom</a> · <a href="/es/" lang="es">Volver a Porcom</a></p>
   </main>
 </body>
 </html>
