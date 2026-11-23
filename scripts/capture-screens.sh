@@ -2,15 +2,16 @@
 # Captures screens from the iOS app in the simulator, light and dark,
 # and writes them as AVIF + WebP to assets/screens/<lang>/.
 #
-#   scripts/capture-screens.sh fr      # or: en
+#   scripts/capture-screens.sh fr      # or: en, es
 #
 # Needs Xcode, ../porcom-ios, and cwebp + avifenc (brew install webp libavif).
 set -eu
 
-LANG_CODE=${1:?usage: $0 fr|en}
+LANG_CODE=${1:?usage: $0 fr|en|es}
 case "$LANG_CODE" in
   fr) LOCALE=fr_CA ;;
   en) LOCALE=en_CA ;;
+  es) LOCALE=es_MX ;;
   *) echo "unknown language: $LANG_CODE" >&2; exit 1 ;;
 esac
 
@@ -58,7 +59,7 @@ for pair in $SCREENS; do
     suffix=$([ "$appearance" = dark ] && echo -dark || true)
     xcrun simctl terminate "$UDID" "$BUNDLE" 2>/dev/null || true
     xcrun simctl launch "$UDID" "$BUNDLE" -seedSampleData $extra -inMemoryStore -sampleArtwork "$IOS/build/sample-artwork" \
-      -"watchGoal.$(date +%Y)" "$GOAL" -backupRemindersEnabled NO -appearance "$appearance" \
+      -"watchGoal.$(date +%Y)" "$GOAL" -backupRemindersEnabled NO -newSeasonsCheckedAt 9999999999 -appearance "$appearance" \
       -AppleLanguages "($LANG_CODE)" -AppleLocale "$LOCALE" ${screen:+-debugScreen "$screen"} >/dev/null
     # Decoding the sample artwork makes the first frames slower than plain sample data.
     sleep 8

@@ -381,7 +381,11 @@ footer p { font-size: 16px; color: var(--muted); }
 footer p a { color: var(--white); text-decoration: none; }
 footer p a:hover { text-decoration: underline; }
 .heart { display: inline-block; width: 15px; height: 14px; margin: 0 2px; vertical-align: -1px; fill: #e5383b; }
-footer nav { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 15px; }
+/* Each link is padded to a 44px tap target; the rows sit closer to make up for it. */
+footer nav { display: flex; flex-wrap: wrap; gap: 0 22px; font-size: 15px; }
+footer nav a { display: inline-block; padding: 12px 0; }
+/* The guides, on every page but the home page (which lists them in its own section). */
+footer nav.guides { font-size: 14px; }
 footer p { margin-top: 10px; }
 footer nav a { color: var(--faint); text-decoration: none; }
 .content footer { padding: 40px 0 0; }
@@ -476,6 +480,9 @@ footer nav a:hover, footer nav a[aria-current] { color: var(--white); }
 
 @media (max-width: 600px) {
   body { font-size: 17px; }
+  /* The comparison table wraps instead of hiding its last column off-screen. */
+  .compare { min-width: 0; font-size: 15px; }
+  .compare th, .compare td { padding-right: 10px; }
   .content { padding: 40px 24px; }
   .label { font-size: 13px; letter-spacing: 0.18em; }
   h2 { font-size: 24px; }
