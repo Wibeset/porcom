@@ -427,6 +427,8 @@ footer nav a:hover, footer nav a[aria-current] { color: var(--white); }
 .legal h1 { font-family: var(--serif); font-size: clamp(32px, 4.4vw, 46px); line-height: 1.2; color: var(--white); }
 .legal .updated { margin-top: 14px; font-size: 15px; color: var(--faint); }
 .legal h2 { margin: 56px 0 0; font-size: 24px; }
+/* FAQ questions on the alternative pages. */
+.legal h3 { margin: 32px 0 0; font-size: 19px; color: var(--white); }
 .legal p, .legal li { max-width: 794px; }
 .legal p { margin-top: 15px; }
 .legal p.lede { margin-top: 28px; font-size: 22px; line-height: 1.5; color: var(--white); }

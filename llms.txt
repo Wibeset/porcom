@@ -37,6 +37,12 @@ Key facts:
 - [Letterboxd alternative](https://porcom.app/letterboxd-alternative/): Movies and series, in private
 - [Trakt alternative](https://porcom.app/trakt-alternative/): No account, no subscription
 - [Serializd alternative](https://porcom.app/serializd-alternative/): Movies too, without a social feed
+- [Simkl alternative](https://porcom.app/simkl-alternative/): No account to sync, no ads
+- [JustWatch alternative](https://porcom.app/justwatch-alternative/): A journal, not just a streaming guide
+- [IMDb alternative](https://porcom.app/imdb-alternative/): Your watch history, beyond a watchlist
+- [BetaSeries alternative](https://porcom.app/betaseries-alternative/): Series and movies in French, in private
+- [Sequel alternative](https://porcom.app/sequel-alternative/): Made for movies and series only
+- [Sofa Time alternative](https://porcom.app/sofa-time-alternative/): Free, with trailers first
 - [What’s new](https://porcom.app/whats-new/): Every version of Porcom
 
 ## Français
@@ -53,6 +59,12 @@ Key facts:
 - [Alternative à Letterboxd](https://porcom.app/fr/alternative-letterboxd/)
 - [Alternative à Trakt](https://porcom.app/fr/alternative-trakt/)
 - [Alternative à Serializd](https://porcom.app/fr/alternative-serializd/)
+- [Alternative à Simkl](https://porcom.app/fr/alternative-simkl/)
+- [Alternative à JustWatch](https://porcom.app/fr/alternative-justwatch/)
+- [Alternative à IMDb](https://porcom.app/fr/alternative-imdb/)
+- [Alternative à BetaSeries](https://porcom.app/fr/alternative-betaseries/)
+- [Alternative à Sequel](https://porcom.app/fr/alternative-sequel/)
+- [Alternative à Sofa Time](https://porcom.app/fr/alternative-sofa-time/)
 - [Nouveautés](https://porcom.app/fr/nouveautes/)
 
 ## Español
@@ -71,4 +83,10 @@ The site is also in Spanish; the app's interface is in English and French only.
 - [Alternativa a Letterboxd](https://porcom.app/es/alternativa-letterboxd/)
 - [Alternativa a Trakt](https://porcom.app/es/alternativa-trakt/)
 - [Alternativa a Serializd](https://porcom.app/es/alternativa-serializd/)
+- [Alternativa a Simkl](https://porcom.app/es/alternativa-simkl/)
+- [Alternativa a JustWatch](https://porcom.app/es/alternativa-justwatch/)
+- [Alternativa a IMDb](https://porcom.app/es/alternativa-imdb/)
+- [Alternativa a BetaSeries](https://porcom.app/es/alternativa-betaseries/)
+- [Alternativa a Sequel](https://porcom.app/es/alternativa-sequel/)
+- [Alternativa a Sofa Time](https://porcom.app/es/alternativa-sofa-time/)
 - [Novedades](https://porcom.app/es/novedades/)

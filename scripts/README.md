@@ -21,6 +21,12 @@ suit la section lue. Le rouge de Porcom sert au trait de surligneur du titre, au
 | `/letterboxd-alternative/` | `/fr/alternative-letterboxd/` | `/es/alternativa-letterboxd/` |
 | `/trakt-alternative/` | `/fr/alternative-trakt/` | `/es/alternativa-trakt/` |
 | `/serializd-alternative/` | `/fr/alternative-serializd/` | `/es/alternativa-serializd/` |
+| `/simkl-alternative/` | `/fr/alternative-simkl/` | `/es/alternativa-simkl/` |
+| `/justwatch-alternative/` | `/fr/alternative-justwatch/` | `/es/alternativa-justwatch/` |
+| `/imdb-alternative/` | `/fr/alternative-imdb/` | `/es/alternativa-imdb/` |
+| `/betaseries-alternative/` | `/fr/alternative-betaseries/` | `/es/alternativa-betaseries/` |
+| `/sequel-alternative/` | `/fr/alternative-sequel/` | `/es/alternativa-sequel/` |
+| `/sofa-time-alternative/` | `/fr/alternative-sofa-time/` | `/es/alternativa-sofa-time/` |
 | `/whats-new/` | `/fr/nouveautes/` | `/es/novedades/` |
 
 Les guides (suivi de séries, journal de films, liste à voir, bilan, où regarder) suivent la mise en page de
